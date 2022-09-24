@@ -1,0 +1,32 @@
+{
+  "name": "shortening-service-api",
+  "version": "1.0.0",
+  "description": "Shortening service API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "api",
+    "shortening"
+  ],
+  "author": "Hildebrand Ligtas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.6.1",
+    "mongoose-sequence": "^5.3.1",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
