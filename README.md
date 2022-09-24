@@ -2,6 +2,9 @@
 
 Deployed on Heroku! Using Node server.
 
+# Angular Application link
+ [Angular repo here](https://github.com/yasexxx/shorteningurl-angular)
+
 # Technologies:
 * Express
 * MongoDB
